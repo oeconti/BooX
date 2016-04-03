@@ -1,0 +1,274 @@
+/*Note
+    Colori:
+        #007ee5=Colore blu stile dropbox
+        #00abff=Colore sfondo menu più chiaro
+
+Fine note */
+
+
+
+/*----------------PROPRIETÀ GENERICHE---*/
+html,body{
+    margin:0; 
+    padding: 0;
+    min-height: 100%;
+}
+
+body{
+    font-family: arial,sans-serif; 
+    font-size: 10px; 
+    background: url(../immagini/sfondo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+
+a:link{
+    color:#007ee5;
+}
+
+a:visited{
+    color:red;
+}
+
+h1{
+    text-align: center; 
+    font-size:20px; 
+    margin: 0;
+    margin-bottom: 20px;
+    padding:0;
+}
+
+h2{
+    text-align:center;
+    font-size:18px;
+}
+
+/*-----------------FINE PROPRIETÀ GENERICHE---*/
+
+/*--------------HEADER----*/
+
+div#header{
+    background-image: url(../immagini/banner.jpg); 
+    height: 150px; 
+    font-size: 12px;
+    text-align:right;
+}
+
+/*-------------FINE HEADER---*/
+
+/*--------------LOGIN----*/
+
+h1#login{
+    text-align: left;
+}
+
+/*--------------FINE LOGIN---*/
+
+/*---------------CONTAINER---*/
+
+div#container{
+    background-color:white;
+    border-left: 2px solid #007ee5;
+    border-right: 2px solid #007ee5;
+    margin: 0 auto;
+    text-align: left;
+    width: 1024px;
+}
+
+/*---------------FINE CONTATINER---*/
+
+/*---------------LOGIN---*/
+
+form#login{
+    text-align:right; 
+    margin:3px 0px 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+input#login{
+    border:1px solid #ccc; 
+    font-size: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+a#login{
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+/*--------------FINE LOGIN---*/
+
+
+
+/*--------------CONTENUTO----*/
+
+div#content{
+    padding:15px 15px; 
+    font-size:14px;
+    min-height: 66.5vh   ;
+
+}
+div#content p{
+    line-height:13px;
+}
+
+/*--------------FINE CONTENUTO---*/
+
+
+
+
+/*-------------NAVIGATION E MENU---*/
+
+div#navigation{
+    background-color:#00abff;
+    height:30px;
+    border-top: 2px solid #007ee5;
+    border-bottom: 2px solid #007ee5;
+}
+
+ul#menu {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+ul#menu li {
+    float: left; /* elementi su singola riga */
+}
+
+ul#menu li a {
+    color: white;
+    display:block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+}
+
+ul#menu li.active, ul#menu li a:hover {
+    background-color: #007ee5;
+    color:white;
+}
+
+/* Colore della pagina attiva */
+li#active{
+    color: white;
+    background-color: #007ee5;
+}
+
+/*-------------FINE NAVIGATION E MENU---*/
+
+/*-------------RICERCA-----------------*/
+
+div#ricerca{
+    color:white;
+    font-size: 14px;
+    background-color:#00abff;
+    /*height:60px;*/
+    /*border-top: 2px solid #007ee5;*/
+    border-bottom: 2px solid #007ee5;
+}
+
+div#camporicerca{
+    height:30px;
+    width: 450px;
+    padding: 10px;
+    display: inline-block;
+}
+
+select#selectUniversita{
+    width: 400px;
+}
+
+
+select#txtHint{
+    width: 400px;  
+}
+
+input#cercaButton{
+    position: relative;
+    left: 200px;
+    width: 200px;
+}
+
+/*-------------FINE RICERCA-----------*/
+
+
+/*-------------ANNUNCI----------------*/
+
+div#annuncio{
+    border-top: 2px solid #007ee5;
+    border-bottom: 2px solid #007ee5;
+    border-left: 2px solid #007ee5;
+    border-right: 2px solid #007ee5;
+    display: table;
+}
+
+div#annuncioContenuto{
+    margin-left: 180px;
+    margin-right: 10px;
+    display: table-cell;
+
+}
+
+form#annuncioForm{
+    margin-left: 622px;
+    margin-bottom: 10px;
+}
+
+div#immaginediv{
+    min-height: 150px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    float: center;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+div#immaginediv,div#annuncioContenuto{
+    float: none;
+    padding: 20px;
+    vertical-align: top;
+}
+
+img#imgcentered{
+    display: block;
+    margin: auto auto;
+}
+
+/*------------------------------------*/
+
+/*-------------FOOTER---*/
+
+div#footer{
+    padding:5px; 
+    background-color:#007ee5;
+    color:white; 
+    text-align:center; 
+    clear: both;
+}
+
+
+/*-------------FINE FOOTER---*/
+
+div#textcentered{
+    text-align: center;
+}
+ 
